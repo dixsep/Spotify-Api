@@ -1,0 +1,32 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+
+}
+.header__left{
+    flex:0.5;
+    background-color:white;
+    padding:10px;
+    color:gray;
+    border-radius:30px;
+    display:flex;
+    align-items: center;
+}
+.header__left > input{
+    width:100%;
+    border:none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height:30px;
+}
+.header__right{
+    display:flex;
+    align-items: center;
+}
+.header__right > h4 {
+    margin-left:10px;
+}
+input [type=text]{
+    border:none;
+  
+}

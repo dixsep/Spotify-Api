@@ -1,0 +1,21 @@
+.login{
+    display:grid;
+    place-items:center;
+    height:100vh;
+    background-color:black;
+    margin-top: 0;
+}
+.login > img {
+    height:300px;
+    width:650px;
+    top:0;
+}
+.login > a{
+    padding:20px;
+    border-radius:100px;
+    background-color:#1DB954;
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
